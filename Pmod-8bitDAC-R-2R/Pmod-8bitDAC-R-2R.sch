@@ -1,0 +1,400 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 6115555A
+P 2500 900
+F 0 "R1" V 2293 900 50  0000 C CNN
+F 1 "2K" V 2384 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 900 50  0001 C CNN
+F 3 "~" H 2500 900 50  0001 C CNN
+	1    2500 900 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6115760E
+P 2900 900
+F 0 "R2" V 2693 900 50  0000 C CNN
+F 1 "2K" V 2784 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 900 50  0001 C CNN
+F 3 "~" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 611582B2
+P 2700 1100
+F 0 "R3" H 2630 1146 50  0000 R CNN
+F 1 "1K" H 2630 1055 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 1100 50  0001 C CNN
+F 3 "~" H 2700 1100 50  0001 C CNN
+	1    2700 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61158B53
+P 2500 1300
+F 0 "R4" V 2293 1300 50  0000 C CNN
+F 1 "2K" V 2384 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 1300 50  0001 C CNN
+F 3 "~" H 2500 1300 50  0001 C CNN
+	1    2500 1300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 1300 2700 1300
+$Comp
+L Device:R R5
+U 1 1 61159579
+P 2700 1500
+F 0 "R5" H 2630 1546 50  0000 R CNN
+F 1 "1K" H 2630 1455 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 1500 50  0001 C CNN
+F 3 "~" H 2700 1500 50  0001 C CNN
+	1    2700 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6115957F
+P 2500 1700
+F 0 "R6" V 2293 1700 50  0000 C CNN
+F 1 "2K" V 2384 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 1700 50  0001 C CNN
+F 3 "~" H 2500 1700 50  0001 C CNN
+	1    2500 1700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 1700 2700 1700
+$Comp
+L Device:R R7
+U 1 1 61159E15
+P 2700 1900
+F 0 "R7" H 2630 1946 50  0000 R CNN
+F 1 "1K" H 2630 1855 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 1900 50  0001 C CNN
+F 3 "~" H 2700 1900 50  0001 C CNN
+	1    2700 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 61159E1B
+P 2500 2100
+F 0 "R8" V 2293 2100 50  0000 C CNN
+F 1 "2K" V 2384 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 2100 50  0001 C CNN
+F 3 "~" H 2500 2100 50  0001 C CNN
+	1    2500 2100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 2100 2700 2100
+$Comp
+L Device:R R9
+U 1 1 6115A52D
+P 2700 2300
+F 0 "R9" H 2630 2346 50  0000 R CNN
+F 1 "1K" H 2630 2255 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 2300 50  0001 C CNN
+F 3 "~" H 2700 2300 50  0001 C CNN
+	1    2700 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6115A533
+P 2500 2500
+F 0 "R10" V 2293 2500 50  0000 C CNN
+F 1 "2K" V 2384 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 2500 2700 2500
+$Comp
+L Device:R R11
+U 1 1 6115AAD7
+P 2700 2700
+F 0 "R11" H 2630 2746 50  0000 R CNN
+F 1 "1K" H 2630 2655 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 2700 50  0001 C CNN
+F 3 "~" H 2700 2700 50  0001 C CNN
+	1    2700 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6115B17B
+P 2700 3100
+F 0 "R13" H 2630 3146 50  0000 R CNN
+F 1 "1K" H 2630 3055 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 3100 50  0001 C CNN
+F 3 "~" H 2700 3100 50  0001 C CNN
+	1    2700 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6115B76B
+P 2700 3500
+F 0 "R15" H 2630 3546 50  0000 R CNN
+F 1 "1K" H 2630 3455 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 3500 50  0001 C CNN
+F 3 "~" H 2700 3500 50  0001 C CNN
+	1    2700 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6115B771
+P 2500 3700
+F 0 "R16" V 2293 3700 50  0000 C CNN
+F 1 "2K" V 2384 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 3700 50  0001 C CNN
+F 3 "~" H 2500 3700 50  0001 C CNN
+	1    2500 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6115BBA3
+P 3050 900
+F 0 "#PWR05" H 3050 650 50  0001 C CNN
+F 1 "GND" H 3055 727 50  0000 C CNN
+F 2 "" H 3050 900 50  0001 C CNN
+F 3 "" H 3050 900 50  0001 C CNN
+	1    3050 900 
+	0    -1   1    0   
+$EndComp
+Text GLabel 2350 900  0    50   Input ~ 0
+D0
+Text GLabel 2350 1300 0    50   Input ~ 0
+D1
+Text GLabel 2350 1700 0    50   Input ~ 0
+D2
+Text GLabel 2350 2100 0    50   Input ~ 0
+D3
+Text GLabel 2350 2500 0    50   Input ~ 0
+D4
+Text GLabel 2350 3700 0    50   Input ~ 0
+D7
+Text GLabel 2750 3700 2    50   Output ~ 0
+VOUT
+$Comp
+L pmod:PMOD-Device-x2-Type-1A-GPIO PMOD1
+U 1 1 6116BEB8
+P 950 1500
+F 0 "PMOD1" H 875 2319 50  0000 C CNN
+F 1 "PMOD-Device-x2-Type-1A-GPIO" V 590 790 50  0001 L CNN
+F 2 "Multicoloredstone:Pmod-1-device-PcbEdge" V 500 790 60  0001 L CNN
+F 3 "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0" H 875 2326 60  0001 C CNN
+	1    950  1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 950  2    50   Output ~ 0
+D0
+Text GLabel 1100 1050 2    50   Output ~ 0
+D1
+Text GLabel 1100 1150 2    50   Output ~ 0
+D2
+Text GLabel 1100 1250 2    50   Output ~ 0
+D3
+Text GLabel 1100 1650 2    50   Output ~ 0
+D4
+Text GLabel 1100 1750 2    50   Output ~ 0
+D5
+Text GLabel 1100 1850 2    50   Output ~ 0
+D6
+Text GLabel 1100 1950 2    50   Output ~ 0
+D7
+$Comp
+L power:GND #PWR01
+U 1 1 6116D93A
+P 1100 1350
+F 0 "#PWR01" H 1100 1100 50  0001 C CNN
+F 1 "GND" V 1100 1250 50  0000 R CNN
+F 2 "" H 1100 1350 50  0001 C CNN
+F 3 "" H 1100 1350 50  0001 C CNN
+	1    1100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 6116E09F
+P 1100 1450
+F 0 "#PWR02" H 1100 1300 50  0001 C CNN
+F 1 "+3V3" V 1100 1550 50  0000 L CNN
+F 2 "" H 1100 1450 50  0001 C CNN
+F 3 "" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6116FA34
+P 1100 2050
+F 0 "#PWR03" H 1100 1800 50  0001 C CNN
+F 1 "GND" V 1100 1950 50  0000 R CNN
+F 2 "" H 1100 2050 50  0001 C CNN
+F 3 "" H 1100 2050 50  0001 C CNN
+	1    1100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 6116FA3A
+P 1100 2150
+F 0 "#PWR04" H 1100 2000 50  0001 C CNN
+F 1 "+3V3" V 1100 2250 50  0000 L CNN
+F 2 "" H 1100 2150 50  0001 C CNN
+F 3 "" H 1100 2150 50  0001 C CNN
+	1    1100 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 900  2700 900 
+Wire Wire Line
+	2700 950  2700 900 
+Connection ~ 2700 900 
+Wire Wire Line
+	2700 900  2750 900 
+Wire Wire Line
+	2700 1300 2700 1350
+Wire Wire Line
+	2700 1250 2700 1300
+Connection ~ 2700 1300
+Wire Wire Line
+	2650 3700 2700 3700
+Wire Wire Line
+	2700 1750 2700 1700
+Connection ~ 2700 1700
+Wire Wire Line
+	2700 1700 2700 1650
+Text GLabel 2350 2900 0    50   Input ~ 0
+D5
+Wire Wire Line
+	2650 2900 2700 2900
+$Comp
+L Device:R R12
+U 1 1 6115AADD
+P 2500 2900
+F 0 "R12" V 2293 2900 50  0000 C CNN
+F 1 "2K" V 2384 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 2900 50  0001 C CNN
+F 3 "~" H 2500 2900 50  0001 C CNN
+	1    2500 2900
+	0    -1   1    0   
+$EndComp
+Text GLabel 2350 3300 0    50   Input ~ 0
+D6
+Wire Wire Line
+	2650 3300 2700 3300
+$Comp
+L Device:R R14
+U 1 1 6115B181
+P 2500 3300
+F 0 "R14" V 2293 3300 50  0000 C CNN
+F 1 "2K" V 2384 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 3300 50  0001 C CNN
+F 3 "~" H 2500 3300 50  0001 C CNN
+	1    2500 3300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2700 2100 2700 2150
+Wire Wire Line
+	2700 2050 2700 2100
+Connection ~ 2700 2100
+Wire Wire Line
+	2700 2550 2700 2500
+Connection ~ 2700 2500
+Wire Wire Line
+	2700 2500 2700 2450
+Wire Wire Line
+	2700 2950 2700 2900
+Connection ~ 2700 2900
+Wire Wire Line
+	2700 2900 2700 2850
+Wire Wire Line
+	2700 3350 2700 3300
+Connection ~ 2700 3300
+Wire Wire Line
+	2700 3300 2700 3250
+Wire Wire Line
+	2700 3650 2700 3700
+Connection ~ 2700 3700
+Wire Wire Line
+	2700 3700 2750 3700
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6117B7DA
+P 4250 800
+F 0 "J1" H 4330 792 50  0000 L CNN
+F 1 "Conn_01x02" H 4330 701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 800 50  0001 C CNN
+F 3 "~" H 4250 800 50  0001 C CNN
+	1    4250 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 6117C48F
+P 4250 1300
+F 0 "J2" H 4178 1538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4178 1447 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 4250 1300 50  0001 C CNN
+F 3 " ~" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4500 800  2    50   Output ~ 0
+VOUT
+Wire Wire Line
+	4500 800  4450 800 
+Text GLabel 4500 1300 2    50   Output ~ 0
+VOUT
+Wire Wire Line
+	4500 1300 4450 1300
+$Comp
+L power:GND #PWR0101
+U 1 1 6117DB06
+P 4450 900
+F 0 "#PWR0101" H 4450 650 50  0001 C CNN
+F 1 "GND" V 4450 800 50  0000 R CNN
+F 2 "" H 4450 900 50  0001 C CNN
+F 3 "" H 4450 900 50  0001 C CNN
+	1    4450 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6117E37D
+P 4250 1500
+F 0 "#PWR0102" H 4250 1250 50  0001 C CNN
+F 1 "GND" V 4250 1400 50  0000 R CNN
+F 2 "" H 4250 1500 50  0001 C CNN
+F 3 "" H 4250 1500 50  0001 C CNN
+	1    4250 1500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
