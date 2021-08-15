@@ -46,21 +46,21 @@ F 3 "" H 1350 2200 50  0001 C CNN
 	1    1350 2200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1350 1100 2    50   BiDi ~ 0
+Text GLabel 1350 1100 2    50   Output ~ 0
 IO0
-Text GLabel 1350 1200 2    50   BiDi ~ 0
+Text GLabel 1350 1200 2    50   Output ~ 0
 IO1
-Text GLabel 1350 1300 2    50   BiDi ~ 0
+Text GLabel 1350 1300 2    50   Output ~ 0
 IO2
-Text GLabel 1350 1400 2    50   BiDi ~ 0
+Text GLabel 1350 1400 2    50   Output ~ 0
 IO3
-Text GLabel 1350 1800 2    50   BiDi ~ 0
+Text GLabel 1350 1800 2    50   Output ~ 0
 IO4
-Text GLabel 1350 1900 2    50   BiDi ~ 0
+Text GLabel 1350 1900 2    50   Output ~ 0
 IO5
-Text GLabel 1350 2000 2    50   BiDi ~ 0
+Text GLabel 1350 2000 2    50   Output ~ 0
 IO6
-Text GLabel 1350 2100 2    50   BiDi ~ 0
+Text GLabel 1350 2100 2    50   Output ~ 0
 IO7
 $Comp
 L Device:LED D0
@@ -288,21 +288,21 @@ Wire Wire Line
 Connection ~ 4600 2000
 Wire Wire Line
 	4600 2000 4950 2000
-Text GLabel 2800 1350 1    50   BiDi ~ 0
+Text GLabel 2800 1350 1    50   Input ~ 0
 IO1
-Text GLabel 3150 1350 1    50   BiDi ~ 0
+Text GLabel 3150 1350 1    50   Input ~ 0
 IO2
-Text GLabel 3500 1350 1    50   BiDi ~ 0
+Text GLabel 3500 1350 1    50   Input ~ 0
 IO3
-Text GLabel 3900 1350 1    50   BiDi ~ 0
+Text GLabel 3900 1350 1    50   Input ~ 0
 IO4
-Text GLabel 4250 1350 1    50   BiDi ~ 0
+Text GLabel 4250 1350 1    50   Input ~ 0
 IO5
-Text GLabel 4600 1350 1    50   BiDi ~ 0
+Text GLabel 4600 1350 1    50   Input ~ 0
 IO6
-Text GLabel 4950 1350 1    50   BiDi ~ 0
+Text GLabel 4950 1350 1    50   Input ~ 0
 IO7
-Text GLabel 2450 1350 1    50   BiDi ~ 0
+Text GLabel 2450 1350 1    50   Input ~ 0
 IO0
 NoConn ~ 1350 1600
 NoConn ~ 1350 2300

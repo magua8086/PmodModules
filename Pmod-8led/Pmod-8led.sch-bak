@@ -25,17 +25,6 @@ F 3 "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR01
-U 1 1 6110FF15
-P 1350 1600
-F 0 "#PWR01" H 1350 1450 50  0001 C CNN
-F 1 "+3V3" V 1350 1700 50  0000 L CNN
-F 2 "" H 1350 1600 50  0001 C CNN
-F 3 "" H 1350 1600 50  0001 C CNN
-	1    1350 1600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR00
 U 1 1 611105E5
 P 1350 1500
@@ -45,17 +34,6 @@ F 2 "" H 1350 1500 50  0001 C CNN
 F 3 "" H 1350 1500 50  0001 C CNN
 	1    1350 1500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR03
-U 1 1 6111124B
-P 1350 2300
-F 0 "#PWR03" H 1350 2150 50  0001 C CNN
-F 1 "+3V3" V 1350 2400 50  0000 L CNN
-F 2 "" H 1350 2300 50  0001 C CNN
-F 3 "" H 1350 2300 50  0001 C CNN
-	1    1350 2300
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -326,4 +304,6 @@ Text GLabel 4950 1350 1    50   BiDi ~ 0
 IO7
 Text GLabel 2450 1350 1    50   BiDi ~ 0
 IO0
+NoConn ~ 1350 1600
+NoConn ~ 1350 2300
 $EndSCHEMATC
